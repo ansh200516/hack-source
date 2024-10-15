@@ -1,0 +1,1841 @@
+2024-10-06 06:32:06,765 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-06 06:32:06,766 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-06 06:32:06,766 - INFO - Scheduler started
+2024-10-06 06:32:06,766 - INFO - Scheduler started. Scraping will run daily.
+2024-10-06 06:32:06,766 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-06 06:32:06 IST)" (scheduled at 2024-10-06 06:32:06.765064+05:30)
+2024-10-06 06:32:06,766 - INFO - Starting scraping process...
+2024-10-06 06:32:06,768 - INFO - Scraping Devpost...
+2024-10-06 06:32:06,777 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-06 06:32:06,777 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-06 06:32:10,673 - INFO - Scraping Devfolio...
+2024-10-06 06:32:10,673 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:10,791 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:10,929 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:11,071 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:17,973 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:18,049 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:18,183 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:18,320 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:25,195 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:25,265 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:25,411 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:25,544 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:32,100 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:32,170 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:32,306 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:32,448 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:39,033 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:39,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:39,242 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:39,390 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:45,931 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:46,030 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:46,190 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:46,324 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:52,908 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:52,981 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:53,117 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:32:53,253 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:32:59,836 - INFO - ====== WebDriver manager ======
+2024-10-06 06:32:59,916 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:00,039 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:00,179 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:33:06,689 - INFO - ====== WebDriver manager ======
+2024-10-06 06:33:06,779 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:06,912 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:07,050 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:33:13,537 - INFO - ====== WebDriver manager ======
+2024-10-06 06:33:13,622 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:13,764 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:13,921 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:33:20,752 - INFO - ====== WebDriver manager ======
+2024-10-06 06:33:20,826 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:20,968 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:21,109 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:33:27,845 - INFO - Scraping Unstop...
+2024-10-06 06:33:27,845 - INFO - ====== WebDriver manager ======
+2024-10-06 06:33:27,923 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:28,059 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:28,187 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:33:47,720 - INFO - Scraping Hack2skill...
+2024-10-06 06:33:47,720 - INFO - ====== WebDriver manager ======
+2024-10-06 06:33:47,795 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:47,931 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 06:33:48,071 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 06:34:02,067 - INFO - Scraping process completed.
+2024-10-06 06:34:02,067 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-07 06:32:06 IST)" executed successfully
+2024-10-06 06:34:20,013 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:20] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:34:20,017 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:20] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:34:29,791 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:29] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:34:32,731 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:32] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 06:34:33,782 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:33] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:34:37,609 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:37] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 06:34:38,345 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:38] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:34:39,359 - INFO - 127.0.0.1 - - [06/Oct/2024 06:34:39] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:35:17,305 - INFO - 127.0.0.1 - - [06/Oct/2024 06:35:17] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:37:12,790 - INFO - 127.0.0.1 - - [06/Oct/2024 06:37:12] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:45:19,846 - INFO - 127.0.0.1 - - [06/Oct/2024 06:45:19] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 06:45:31,273 - INFO - 127.0.0.1 - - [06/Oct/2024 06:45:31] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:48:06,840 - INFO - 127.0.0.1 - - [06/Oct/2024 06:48:06] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:48:29,840 - INFO - 127.0.0.1 - - [06/Oct/2024 06:48:29] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:49:14,842 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:14] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:49:21,252 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:21] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:49:21,253 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:21] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:49:23,804 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:23] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:49:25,724 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:25] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 06:49:30,856 - INFO - 127.0.0.1 - - [06/Oct/2024 06:49:30] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:51:49,841 - INFO - 127.0.0.1 - - [06/Oct/2024 06:51:49] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:51:59,523 - INFO - 127.0.0.1 - - [06/Oct/2024 06:51:59] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:51:59,525 - INFO - 127.0.0.1 - - [06/Oct/2024 06:51:59] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:52:01,060 - INFO - 127.0.0.1 - - [06/Oct/2024 06:52:01] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:52:21,707 - INFO - 127.0.0.1 - - [06/Oct/2024 06:52:21] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 06:52:31,095 - INFO - 127.0.0.1 - - [06/Oct/2024 06:52:31] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:56:22,847 - INFO - 127.0.0.1 - - [06/Oct/2024 06:56:22] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 06:56:27,143 - INFO - 127.0.0.1 - - [06/Oct/2024 06:56:27] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:56:27,145 - INFO - 127.0.0.1 - - [06/Oct/2024 06:56:27] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 06:56:28,974 - INFO - 127.0.0.1 - - [06/Oct/2024 06:56:28] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:01:09,696 - INFO - 127.0.0.1 - - [06/Oct/2024 07:01:09] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:01:19,579 - INFO - 127.0.0.1 - - [06/Oct/2024 07:01:19] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:01:19,581 - INFO - 127.0.0.1 - - [06/Oct/2024 07:01:19] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:01:27,156 - INFO - 127.0.0.1 - - [06/Oct/2024 07:01:27] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:02:58,413 - INFO - 127.0.0.1 - - [06/Oct/2024 07:02:58] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:03:02,168 - INFO - 127.0.0.1 - - [06/Oct/2024 07:03:02] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:03:03,393 - INFO - 127.0.0.1 - - [06/Oct/2024 07:03:03] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:03:04,993 - INFO - 127.0.0.1 - - [06/Oct/2024 07:03:04] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:03:05,887 - INFO - 127.0.0.1 - - [06/Oct/2024 07:03:05] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:03:07,988 - INFO - 127.0.0.1 - - [06/Oct/2024 07:03:07] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:06:12,719 - INFO - 127.0.0.1 - - [06/Oct/2024 07:06:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:06:12,721 - INFO - 127.0.0.1 - - [06/Oct/2024 07:06:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:07:18,438 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:18] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:07:19,172 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:19] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:07:19,870 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:19] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:07:20,536 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:20] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:07:21,450 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:21] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:07:30,439 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:30] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:07:33,587 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:33] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:07:35,708 - INFO - 127.0.0.1 - - [06/Oct/2024 07:07:35] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:11:36,756 - INFO - 127.0.0.1 - - [06/Oct/2024 07:11:36] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:11:36,758 - INFO - 127.0.0.1 - - [06/Oct/2024 07:11:36] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:17:13,740 - INFO - 127.0.0.1 - - [06/Oct/2024 07:17:13] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:18:07,300 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-06 07:18:07,300 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-06 07:18:07,300 - INFO - Scheduler started
+2024-10-06 07:18:07,301 - INFO - Scheduler started. Scraping will run daily.
+2024-10-06 07:18:07,301 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-07 07:18:07 IST)" (scheduled at 2024-10-06 07:18:07.300253+05:30)
+2024-10-06 07:18:07,301 - INFO - Starting scraping process...
+2024-10-06 07:18:07,303 - INFO - Scraping Devpost...
+2024-10-06 07:18:07,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-06 07:18:07,315 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-06 07:18:11,096 - INFO - Scraping Devfolio...
+2024-10-06 07:18:11,096 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:11,214 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:11,410 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:11,544 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:18,584 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:18,656 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:18,780 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:18,908 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:25,730 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:25,802 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:25,930 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:26,059 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:32,570 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:32,641 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:32,767 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:32,895 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:39,445 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:39,522 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:39,647 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:39,774 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:46,300 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:46,386 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:46,509 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:46,636 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:53,134 - INFO - ====== WebDriver manager ======
+2024-10-06 07:18:53,206 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:53,336 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:18:53,466 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:18:59,991 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:00,064 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:00,191 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:00,319 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:19:06,914 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:07,020 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:07,148 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:07,281 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:19:13,805 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:13,892 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:14,020 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:14,150 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:19:20,753 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:20,845 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:20,970 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:21,096 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:19:27,679 - INFO - Scraping Unstop...
+2024-10-06 07:19:27,680 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:27,784 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:27,910 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:28,039 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:19:47,581 - INFO - Scraping Hack2skill...
+2024-10-06 07:19:47,581 - INFO - ====== WebDriver manager ======
+2024-10-06 07:19:47,661 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:47,786 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-06 07:19:47,915 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-06 07:20:01,817 - INFO - Scraping process completed.
+2024-10-06 07:20:01,817 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-07 07:18:07 IST)" executed successfully
+2024-10-06 07:21:03,778 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:03] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:21:12,382 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:12] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:21:15,804 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:15] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:21:16,971 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:16] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:21:18,176 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:18] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:21:20,695 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:20] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:21:21,393 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:21] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:21:22,485 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:22] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:21:30,397 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:30] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:21:31,308 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:31] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:21:48,057 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:48] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:21:52,033 - INFO - 127.0.0.1 - - [06/Oct/2024 07:21:52] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:28:28,979 - INFO - 127.0.0.1 - - [06/Oct/2024 07:28:28] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:30:05,935 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:05] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:30:20,591 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:20] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:30:21,326 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:21] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:30:21,957 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:21] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:30:27,272 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:27] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:30:27,927 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:27] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:30:28,567 - INFO - 127.0.0.1 - - [06/Oct/2024 07:30:28] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:31:10,963 - INFO - 127.0.0.1 - - [06/Oct/2024 07:31:10] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:31:13,837 - INFO - 127.0.0.1 - - [06/Oct/2024 07:31:13] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:31:15,143 - INFO - 127.0.0.1 - - [06/Oct/2024 07:31:15] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:31:16,067 - INFO - 127.0.0.1 - - [06/Oct/2024 07:31:16] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:31:16,969 - INFO - 127.0.0.1 - - [06/Oct/2024 07:31:16] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:34:36,188 - INFO - 127.0.0.1 - - [06/Oct/2024 07:34:36] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:37:03,913 - INFO - 127.0.0.1 - - [06/Oct/2024 07:37:03] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:37:09,936 - INFO - 127.0.0.1 - - [06/Oct/2024 07:37:09] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:39:03,967 - INFO - 127.0.0.1 - - [06/Oct/2024 07:39:03] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:41:25,898 - INFO - 127.0.0.1 - - [06/Oct/2024 07:41:25] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:41:25,900 - INFO - 127.0.0.1 - - [06/Oct/2024 07:41:25] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:41:34,244 - INFO - 127.0.0.1 - - [06/Oct/2024 07:41:34] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:41:34,246 - INFO - 127.0.0.1 - - [06/Oct/2024 07:41:34] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:44:17,657 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:17] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:44:17,659 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:17] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:44:30,706 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:30] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:44:31,316 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:31] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:44:31,869 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:31] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:44:32,431 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:32] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:44:32,904 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:32] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:44:33,403 - INFO - 127.0.0.1 - - [06/Oct/2024 07:44:33] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:45:36,263 - INFO - 127.0.0.1 - - [06/Oct/2024 07:45:36] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:45:49,258 - INFO - 127.0.0.1 - - [06/Oct/2024 07:45:49] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:45:51,028 - INFO - 127.0.0.1 - - [06/Oct/2024 07:45:51] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:45:56,239 - INFO - 127.0.0.1 - - [06/Oct/2024 07:45:56] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:46:14,819 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:14] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:46:16,480 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:16] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-06 07:46:46,659 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:46] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:46:56,029 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:56] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-06 07:46:56,891 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:56] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-06 07:46:58,089 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:58] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-06 07:46:59,154 - INFO - 127.0.0.1 - - [06/Oct/2024 07:46:59] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-07 20:48:22,509 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 20:48:22,509 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-07 20:48:22,509 - INFO - Scheduler started
+2024-10-07 20:48:22,510 - INFO - Scheduler started. Scraping will run daily.
+2024-10-07 20:48:22,510 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 20:48:22 IST)" (scheduled at 2024-10-07 20:48:22.508610+05:30)
+2024-10-07 20:48:22,514 - INFO - Starting scraping process...
+2024-10-07 20:48:22,516 - INFO - Scraping Devpost...
+2024-10-07 20:48:22,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-07 20:48:22,529 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-07 20:48:26,158 - INFO - Scraping Devfolio...
+2024-10-07 20:48:26,158 - INFO - ====== WebDriver manager ======
+2024-10-07 20:48:26,279 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:26,440 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:26,583 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:26,903 - INFO - WebDriver version 129.0.6668.89 selected
+2024-10-07 20:48:26,905 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-07 20:48:26,905 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-07 20:48:27,106 - INFO - Driver downloading response is 200
+2024-10-07 20:48:27,385 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:27,577 - INFO - Driver has been saved in cache [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89]
+2024-10-07 20:48:34,627 - INFO - ====== WebDriver manager ======
+2024-10-07 20:48:34,707 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:34,831 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:34,987 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:48:42,418 - INFO - ====== WebDriver manager ======
+2024-10-07 20:48:42,495 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:42,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:42,769 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:48:49,566 - INFO - ====== WebDriver manager ======
+2024-10-07 20:48:49,641 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:49,772 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:49,897 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:48:57,103 - INFO - ====== WebDriver manager ======
+2024-10-07 20:48:57,180 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:57,305 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:48:57,464 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:04,260 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:04,355 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:04,480 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:04,645 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:12,474 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:12,548 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:12,687 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:12,820 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:19,732 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:19,806 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:19,938 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:20,077 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:26,830 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:26,905 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:27,042 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:27,170 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:34,314 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:34,388 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:34,513 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:34,640 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:40,868 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:40,950 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:41,076 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:41,205 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:49:48,142 - INFO - Scraping Unstop...
+2024-10-07 20:49:48,142 - INFO - ====== WebDriver manager ======
+2024-10-07 20:49:48,222 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:48,378 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:49:48,509 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:50:07,048 - INFO - Scraping Hack2skill...
+2024-10-07 20:50:07,049 - INFO - ====== WebDriver manager ======
+2024-10-07 20:50:07,129 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:50:07,291 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 20:50:07,450 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 20:50:22,935 - INFO - Scraping process completed.
+2024-10-07 20:50:22,936 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 20:48:22 IST)" executed successfully
+2024-10-07 21:01:50,376 - INFO - 127.0.0.1 - - [07/Oct/2024 21:01:50] "GET /api/hackathons/all HTTP/1.1" 200 -
+2024-10-07 21:01:50,379 - INFO - 127.0.0.1 - - [07/Oct/2024 21:01:50] "GET /api/hackathons/all HTTP/1.1" 200 -
+2024-10-07 21:02:18,999 - INFO - 127.0.0.1 - - [07/Oct/2024 21:02:18] "[33mGET /api/hackathons/ HTTP/1.1[0m" 404 -
+2024-10-07 21:02:23,342 - INFO - 127.0.0.1 - - [07/Oct/2024 21:02:23] "[33mGET /api/hackathons/ HTTP/1.1[0m" 404 -
+2024-10-07 21:02:23,344 - INFO - 127.0.0.1 - - [07/Oct/2024 21:02:23] "[33mGET /api/hackathons/ HTTP/1.1[0m" 404 -
+2024-10-07 21:04:40,018 - INFO - 127.0.0.1 - - [07/Oct/2024 21:04:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-07 21:04:40,028 - INFO - 127.0.0.1 - - [07/Oct/2024 21:04:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-07 21:05:07,175 - INFO - 127.0.0.1 - - [07/Oct/2024 21:05:07] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-07 21:05:08,196 - INFO - 127.0.0.1 - - [07/Oct/2024 21:05:08] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-07 21:05:09,566 - INFO - 127.0.0.1 - - [07/Oct/2024 21:05:09] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-07 21:25:43,670 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-07 21:25:43,670 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-07 21:25:43,670 - INFO - Scheduler started
+2024-10-07 21:25:43,671 - INFO - Scheduler started. Scraping will run daily.
+2024-10-07 21:25:43,671 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 21:25:43 IST)" (scheduled at 2024-10-07 21:25:43.669593+05:30)
+2024-10-07 21:25:43,671 - INFO - Starting scraping process...
+2024-10-07 21:25:43,674 - INFO - Scraping Devpost...
+2024-10-07 21:25:43,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-07 21:25:43,683 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-07 21:25:47,611 - INFO - Scraping Devfolio...
+2024-10-07 21:25:47,611 - INFO - ====== WebDriver manager ======
+2024-10-07 21:25:47,728 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:25:47,889 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:25:48,023 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:25:54,555 - INFO - ====== WebDriver manager ======
+2024-10-07 21:25:54,636 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:25:54,764 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:25:54,898 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:01,771 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:01,842 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:01,973 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:02,103 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:08,966 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:09,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:09,182 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:09,318 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:16,741 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:16,812 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:16,950 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:17,108 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:23,959 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:24,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:24,181 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:24,337 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:32,891 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:32,977 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:33,103 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:33,231 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:40,416 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:40,489 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:40,628 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:40,759 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:47,673 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:47,746 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:47,879 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:48,010 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:26:54,943 - INFO - ====== WebDriver manager ======
+2024-10-07 21:26:55,017 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:55,142 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:26:55,299 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:27:02,405 - INFO - ====== WebDriver manager ======
+2024-10-07 21:27:02,480 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:02,609 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:02,744 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:27:09,818 - INFO - Scraping Unstop...
+2024-10-07 21:27:09,818 - INFO - ====== WebDriver manager ======
+2024-10-07 21:27:09,898 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:10,023 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:10,163 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:27:28,907 - INFO - Scraping Hack2skill...
+2024-10-07 21:27:28,907 - INFO - ====== WebDriver manager ======
+2024-10-07 21:27:28,989 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:29,114 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-07 21:27:29,242 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-07 21:27:51,514 - INFO - Scraping process completed.
+2024-10-07 21:27:51,514 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 21:25:43 IST)" executed successfully
+2024-10-07 22:20:51,383 - INFO - 127.0.0.1 - - [07/Oct/2024 22:20:51] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-07 22:20:51,385 - INFO - 127.0.0.1 - - [07/Oct/2024 22:20:51] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-07 22:21:06,529 - INFO - 127.0.0.1 - - [07/Oct/2024 22:21:06] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-07 22:21:07,269 - INFO - 127.0.0.1 - - [07/Oct/2024 22:21:07] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-07 22:21:08,306 - INFO - 127.0.0.1 - - [07/Oct/2024 22:21:08] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 04:09:26,093 - INFO - Admin user created.
+2024-10-08 04:09:26,097 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 04:09:26,098 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 04:09:26,098 - INFO - Scheduler started
+2024-10-08 04:09:26,098 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 04:09:26,098 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 04:09:26 IST)" (scheduled at 2024-10-08 04:09:26.097458+05:30)
+2024-10-08 04:09:26,098 - INFO - Starting scraping process...
+2024-10-08 04:09:26,099 - INFO - Scraping Devpost...
+2024-10-08 04:09:26,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 04:09:26,116 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 04:09:28,327 - INFO - Scraping Devfolio...
+2024-10-08 04:09:28,327 - INFO - ====== WebDriver manager ======
+2024-10-08 04:09:28,783 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:28,966 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:29,139 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:29,467 - INFO - WebDriver version 129.0.6668.89 selected
+2024-10-08 04:09:29,469 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-08 04:09:29,469 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-08 04:09:29,651 - INFO - Driver downloading response is 200
+2024-10-08 04:09:30,028 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:30,225 - INFO - Driver has been saved in cache [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89]
+2024-10-08 04:09:37,504 - INFO - ====== WebDriver manager ======
+2024-10-08 04:09:37,584 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:37,715 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:37,854 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:09:46,426 - INFO - ====== WebDriver manager ======
+2024-10-08 04:09:46,502 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:46,657 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:46,816 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:09:54,177 - INFO - ====== WebDriver manager ======
+2024-10-08 04:09:54,254 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:54,376 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:09:54,533 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:01,249 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:01,324 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:01,479 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:01,607 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:08,694 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:08,764 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:08,889 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:09,017 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:15,795 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:15,869 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:15,998 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:16,126 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:22,991 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:23,066 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:23,191 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:23,319 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:30,254 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:30,329 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:30,466 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:30,621 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:37,771 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:37,847 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:37,975 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:38,108 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:45,159 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:45,236 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:45,368 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:45,497 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:10:52,774 - INFO - Scraping Unstop...
+2024-10-08 04:10:52,774 - INFO - ====== WebDriver manager ======
+2024-10-08 04:10:52,854 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:52,984 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:10:53,117 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:11:11,629 - INFO - Scraping Hack2skill...
+2024-10-08 04:11:11,629 - INFO - ====== WebDriver manager ======
+2024-10-08 04:11:11,711 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:11:11,903 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:11:12,075 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:11:25,674 - ERROR - Error during scraping: (sqlite3.OperationalError) table hackathons has no column named featured
+[SQL: INSERT INTO hackathons (source, title, description, deadline, prize, location, registration_link, institution, days_left, mode, start_date, featured) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: ('Devpost', 'VolunteerTech', 'Create a project dedicated to some kind of volunteering and helping the community! Your project must help the community in some sort of way, make it creative and unique!', '  Oct 15, 2024', 'Non-monetary prizes', 'Online', 'https://volunteertech.devpost.com/', None, None, None, None, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-10-08 04:11:25,674 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 04:09:26 IST)" executed successfully
+2024-10-08 04:12:14,698 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:14] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:14,707 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:14] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:16,300 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:16] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:17,127 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:17] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:17,324 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:17] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:17,507 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:17] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:17,673 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:17] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:17,870 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:17] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:18,170 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:18] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:18,525 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:18] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:18,900 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:18] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:19,050 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:19] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:19,240 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:19] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:19,388 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:19] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:20,799 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:20] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:12:20,805 - INFO - 127.0.0.1 - - [08/Oct/2024 04:12:20] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:14:12,780 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:12] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:14:12,791 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:12] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:14:47,201 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:47] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:14:47,211 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:47] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:14:55,253 - INFO - 127.0.0.1 - - [08/Oct/2024 04:14:55] "[35m[1mGET /api/hackathons HTTP/1.1[0m" 500 -
+2024-10-08 04:16:15,143 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 04:16:15,143 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 04:16:15,144 - INFO - Scheduler started
+2024-10-08 04:16:15,144 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 04:16:15,144 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 04:16:15 IST)" (scheduled at 2024-10-08 04:16:15.143304+05:30)
+2024-10-08 04:16:15,144 - INFO - Starting scraping process...
+2024-10-08 04:16:15,146 - INFO - Scraping Devpost...
+2024-10-08 04:16:15,157 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 04:16:15,158 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 04:16:18,720 - INFO - Scraping Devfolio...
+2024-10-08 04:16:18,720 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:18,838 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:18,995 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:19,128 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:16:26,367 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:26,448 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:26,581 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:26,711 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:16:33,550 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:33,624 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:33,752 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:33,880 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:16:40,777 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:40,850 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:40,975 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:41,104 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:16:48,009 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:48,081 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:48,205 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:48,333 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:16:55,734 - INFO - ====== WebDriver manager ======
+2024-10-08 04:16:55,807 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:55,930 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:16:56,061 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:03,133 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:03,203 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:03,327 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:03,458 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:10,375 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:10,447 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:10,574 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:10,704 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:17,928 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:18,000 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:18,123 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:18,267 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:25,326 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:25,399 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:25,522 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:25,682 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:33,021 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:33,094 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:33,219 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:33,346 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:40,555 - INFO - Scraping Unstop...
+2024-10-08 04:17:40,555 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:40,632 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:40,757 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:40,902 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:17:59,377 - INFO - Scraping Hack2skill...
+2024-10-08 04:17:59,378 - INFO - ====== WebDriver manager ======
+2024-10-08 04:17:59,455 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:59,582 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 04:17:59,715 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 04:18:19,348 - INFO - Scraping process completed.
+2024-10-08 04:18:19,349 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 04:16:15 IST)" executed successfully
+2024-10-08 04:19:32,365 - INFO - 127.0.0.1 - - [08/Oct/2024 04:19:32] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 04:19:32,367 - INFO - 127.0.0.1 - - [08/Oct/2024 04:19:32] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 04:19:43,781 - INFO - 127.0.0.1 - - [08/Oct/2024 04:19:43] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 04:20:05,250 - INFO - 127.0.0.1 - - [08/Oct/2024 04:20:05] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 04:20:07,679 - INFO - 127.0.0.1 - - [08/Oct/2024 04:20:07] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 15:10:02,758 - INFO - 127.0.0.1 - - [08/Oct/2024 15:10:02] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:03:42,616 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:42] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:03:42,619 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:42] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:03:47,832 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:47] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:03:49,005 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:49] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:03:57,390 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:57] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:03:57,391 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:57] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:03:57,396 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:57] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:03:57,401 - INFO - 127.0.0.1 - - [08/Oct/2024 16:03:57] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:04:00,663 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:00] "[33mOPTIONS /api/hackathons/3/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:02,423 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:02] "[33mOPTIONS /api/hackathons/3/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:02,606 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:02] "[33mOPTIONS /api/hackathons/3/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:02,756 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:02] "[33mOPTIONS /api/hackathons/3/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:03,714 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:03] "[33mOPTIONS /api/hackathons/2/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:04,186 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:04] "[33mOPTIONS /api/hackathons/2/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:04,391 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:04] "[33mOPTIONS /api/hackathons/2/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:06,124 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:06] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:04:06,131 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:06] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:04:12,362 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:04:12,366 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:04:16,690 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:16] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:17,121 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:17] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:17,319 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:17] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:18,631 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:18] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:04:27,806 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:27] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:04:27,809 - INFO - 127.0.0.1 - - [08/Oct/2024 16:04:27] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:05:35,340 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:35] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:05:35,341 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:35] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:05:35,346 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:35] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:05:35,350 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:35] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 16:05:38,934 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:38] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:05:38,940 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:38] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:05:40,473 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:40] "[33mOPTIONS /api/hackathons/1/toggle-featured HTTP/1.1[0m" 404 -
+2024-10-08 16:05:50,338 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:50] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 16:05:51,468 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:51] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 16:05:52,546 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:52] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 16:05:53,528 - INFO - 127.0.0.1 - - [08/Oct/2024 16:05:53] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:06:22,020 - INFO - 127.0.0.1 - - [08/Oct/2024 16:06:22] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:06:22,025 - INFO - 127.0.0.1 - - [08/Oct/2024 16:06:22] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:11:32,969 - INFO - 127.0.0.1 - - [08/Oct/2024 16:11:32] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 16:11:32,970 - INFO - 127.0.0.1 - - [08/Oct/2024 16:11:32] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 16:11:32,971 - INFO - 127.0.0.1 - - [08/Oct/2024 16:11:32] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:11:32,973 - INFO - 127.0.0.1 - - [08/Oct/2024 16:11:32] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:14:15,968 - INFO - 127.0.0.1 - - [08/Oct/2024 16:14:15] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:14:15,971 - INFO - 127.0.0.1 - - [08/Oct/2024 16:14:15] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:15:10,304 - INFO - 127.0.0.1 - - [08/Oct/2024 16:15:10] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:15:10,306 - INFO - 127.0.0.1 - - [08/Oct/2024 16:15:10] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:15:23,256 - INFO - 127.0.0.1 - - [08/Oct/2024 16:15:23] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:15:23,259 - INFO - 127.0.0.1 - - [08/Oct/2024 16:15:23] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:16:03,992 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:03] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:16:03,994 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:03] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:16:40,368 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:16:40,372 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:16:45,085 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:45] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 16:16:46,186 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:46] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 16:16:47,160 - INFO - 127.0.0.1 - - [08/Oct/2024 16:16:47] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:20:41,524 - INFO - 127.0.0.1 - - [08/Oct/2024 16:20:41] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 16:20:41,529 - INFO - 127.0.0.1 - - [08/Oct/2024 16:20:41] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 17:56:11,189 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 17:56:11,190 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 17:56:11,190 - INFO - Scheduler started
+2024-10-08 17:56:11,190 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 17:56:11,190 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 17:56:11 IST)" (scheduled at 2024-10-08 17:56:11.189304+05:30)
+2024-10-08 17:56:11,190 - INFO - Starting scraping process...
+2024-10-08 17:56:11,191 - INFO - Scraping Devpost...
+2024-10-08 17:56:11,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 17:56:11,207 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 17:56:14,974 - INFO - Scraping Devfolio...
+2024-10-08 17:56:14,974 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:15,122 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:15,307 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:15,467 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:56:22,854 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:22,940 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:23,112 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:23,248 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:56:30,520 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:30,594 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:30,721 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:30,947 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:56:38,350 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:38,424 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:38,552 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:38,755 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:56:46,028 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:46,102 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:46,230 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:46,424 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:56:53,604 - INFO - ====== WebDriver manager ======
+2024-10-08 17:56:53,678 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:53,816 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:56:54,023 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:01,196 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:01,272 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:01,421 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:01,554 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:08,841 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:08,915 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:09,112 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:09,278 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:16,470 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:16,556 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:16,707 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:16,862 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:23,820 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:23,896 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:24,046 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:24,199 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:31,116 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:31,197 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:31,342 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:31,497 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:38,545 - INFO - Scraping Unstop...
+2024-10-08 17:57:38,545 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:38,625 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:38,779 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:38,999 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:57:58,177 - INFO - Scraping Hack2skill...
+2024-10-08 17:57:58,178 - INFO - ====== WebDriver manager ======
+2024-10-08 17:57:58,260 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:58,490 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 17:57:58,625 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 17:58:18,766 - INFO - Scraping process completed.
+2024-10-08 17:58:18,766 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 17:56:11 IST)" executed successfully
+2024-10-08 18:05:51,274 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 18:05:51,275 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 18:05:51,275 - INFO - Scheduler started
+2024-10-08 18:05:51,275 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 18:05:51,275 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:05:51 IST)" (scheduled at 2024-10-08 18:05:51.274249+05:30)
+2024-10-08 18:05:51,275 - INFO - Starting scraping process...
+2024-10-08 18:05:51,277 - INFO - Scraping Devpost...
+2024-10-08 18:05:51,288 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 18:05:51,288 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 18:05:54,821 - INFO - Scraping Devfolio...
+2024-10-08 18:05:54,821 - INFO - ====== WebDriver manager ======
+2024-10-08 18:05:54,941 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:05:55,078 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:05:55,294 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:02,214 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:02,294 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:02,540 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:02,688 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:11,522 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:11,599 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:11,726 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:11,871 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:18,941 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:19,020 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:19,156 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:19,369 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:26,573 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:26,648 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:26,783 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:26,936 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:33,840 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:33,916 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:34,143 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:34,299 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:41,935 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:42,011 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:42,184 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:42,390 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:49,483 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:49,562 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:49,788 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:49,926 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:06:56,740 - INFO - ====== WebDriver manager ======
+2024-10-08 18:06:56,816 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:56,955 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:06:57,170 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:07:04,050 - INFO - ====== WebDriver manager ======
+2024-10-08 18:07:04,128 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:04,271 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:04,454 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:07:13,885 - INFO - ====== WebDriver manager ======
+2024-10-08 18:07:13,963 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:14,091 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:14,231 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:07:21,421 - INFO - Scraping Unstop...
+2024-10-08 18:07:21,421 - INFO - ====== WebDriver manager ======
+2024-10-08 18:07:21,501 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:21,706 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:21,839 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:07:40,470 - INFO - Scraping Hack2skill...
+2024-10-08 18:07:40,470 - INFO - ====== WebDriver manager ======
+2024-10-08 18:07:40,549 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:40,712 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:07:40,905 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:07:58,702 - INFO - Scraping process completed.
+2024-10-08 18:07:58,702 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:05:51 IST)" executed successfully
+2024-10-08 18:25:51,228 - INFO - 127.0.0.1 - - [08/Oct/2024 18:25:51] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:27:03,773 - INFO - 127.0.0.1 - - [08/Oct/2024 18:27:03] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:27:03,775 - INFO - 127.0.0.1 - - [08/Oct/2024 18:27:03] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:27:13,949 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 18:27:13,950 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 18:27:13,950 - INFO - Scheduler started
+2024-10-08 18:27:13,950 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 18:27:13,950 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:27:13 IST)" (scheduled at 2024-10-08 18:27:13.949040+05:30)
+2024-10-08 18:27:13,950 - INFO - Starting scraping process...
+2024-10-08 18:27:13,951 - INFO - Scraping Devpost...
+2024-10-08 18:27:13,963 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 18:27:13,963 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 18:27:17,691 - INFO - Scraping Devfolio...
+2024-10-08 18:27:17,691 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:17,834 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:18,079 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:18,238 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:27:25,661 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:25,739 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:25,918 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:26,081 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:27:33,710 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:33,781 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:33,945 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:34,078 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:27:41,102 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:41,174 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:41,397 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:41,727 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:27:48,790 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:48,862 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:49,005 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:49,155 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:27:55,687 - INFO - ====== WebDriver manager ======
+2024-10-08 18:27:55,760 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:55,893 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:27:56,295 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:03,240 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:03,313 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:03,530 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:03,681 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:10,705 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:10,779 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:11,005 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:11,154 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:18,217 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:18,291 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:18,452 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:18,871 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:25,839 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:25,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:26,122 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:26,294 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:33,410 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:33,485 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:33,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:33,823 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:28:40,828 - INFO - Scraping Unstop...
+2024-10-08 18:28:40,828 - INFO - ====== WebDriver manager ======
+2024-10-08 18:28:40,908 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:41,108 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:28:41,360 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:29:00,043 - INFO - Scraping Hack2skill...
+2024-10-08 18:29:00,043 - INFO - ====== WebDriver manager ======
+2024-10-08 18:29:00,122 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:29:00,289 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:29:00,440 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:29:20,393 - INFO - Scraping process completed.
+2024-10-08 18:29:20,393 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:27:13 IST)" executed successfully
+2024-10-08 18:29:38,089 - INFO - 127.0.0.1 - - [08/Oct/2024 18:29:38] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:29:38,090 - INFO - 127.0.0.1 - - [08/Oct/2024 18:29:38] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:29:56,496 - INFO - 127.0.0.1 - - [08/Oct/2024 18:29:56] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:29:56,642 - INFO - 127.0.0.1 - - [08/Oct/2024 18:29:56] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-10-08 18:30:15,414 - INFO - 127.0.0.1 - - [08/Oct/2024 18:30:15] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:30:15,554 - INFO - 127.0.0.1 - - [08/Oct/2024 18:30:15] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2024-10-08 18:32:55,860 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 18:32:55,860 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 18:32:55,861 - INFO - Scheduler started
+2024-10-08 18:32:55,861 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-08 18:32:55 IST)" (scheduled at 2024-10-08 18:32:55.859840+05:30)
+2024-10-08 18:32:55,861 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 18:32:55,861 - INFO - Starting scraping process...
+2024-10-08 18:32:55,862 - INFO - Scraping Devpost...
+2024-10-08 18:32:55,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 18:32:55,874 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 18:32:59,088 - INFO - Scraping Devfolio...
+2024-10-08 18:32:59,089 - INFO - ====== WebDriver manager ======
+2024-10-08 18:32:59,218 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:32:59,387 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:32:59,578 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:01,649 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1028b67e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4ec497a4720b0ee7d485d4bee4d04590
+2024-10-08 18:33:01,651 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1028b6960>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4ec497a4720b0ee7d485d4bee4d04590
+2024-10-08 18:33:01,652 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1028b6ab0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4ec497a4720b0ee7d485d4bee4d04590
+2024-10-08 18:33:01,666 - INFO - Scraping Unstop...
+2024-10-08 18:33:01,667 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:01,750 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:01,883 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:02,034 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:02,912 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10631f620>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cf832bd4d52515db45a3352d666f2f6c
+2024-10-08 18:33:11,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 18:33:11,094 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 18:33:11,094 - INFO - Scheduler started
+2024-10-08 18:33:11,095 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 18:33:11,095 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:33:11 IST)" (scheduled at 2024-10-08 18:33:11.093475+05:30)
+2024-10-08 18:33:11,095 - INFO - Starting scraping process...
+2024-10-08 18:33:11,100 - INFO - Scraping Devpost...
+2024-10-08 18:33:11,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 18:33:11,105 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 18:33:13,255 - INFO - Scraping Devfolio...
+2024-10-08 18:33:13,255 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:13,372 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:13,532 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:13,734 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:20,589 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:20,665 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:20,812 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:20,957 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:27,924 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:27,994 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:28,145 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:28,302 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:35,706 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:35,778 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:35,971 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:36,116 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:43,232 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:43,302 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:43,791 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:43,951 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:51,139 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:51,209 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:51,373 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:51,573 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:33:58,651 - INFO - ====== WebDriver manager ======
+2024-10-08 18:33:58,723 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:58,952 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:33:59,107 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:06,308 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:06,380 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:06,532 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:06,728 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:13,769 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:13,842 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:14,069 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:14,200 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:21,086 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:21,159 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:21,357 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:21,513 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:28,664 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:28,737 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:28,873 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:29,014 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:35,861 - INFO - Scraping Unstop...
+2024-10-08 18:34:35,861 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:35,941 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:36,124 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:36,311 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:34:55,117 - INFO - Scraping Hack2skill...
+2024-10-08 18:34:55,118 - INFO - ====== WebDriver manager ======
+2024-10-08 18:34:55,197 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:55,328 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:34:55,535 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:35:15,110 - INFO - Scraping process completed.
+2024-10-08 18:35:15,110 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:33:11 IST)" executed successfully
+2024-10-08 18:36:41,276 - INFO - 127.0.0.1 - - [08/Oct/2024 18:36:41] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:36:41,282 - INFO - 127.0.0.1 - - [08/Oct/2024 18:36:41] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-08 18:36:58,082 - INFO - 127.0.0.1 - - [08/Oct/2024 18:36:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-08 18:37:10,507 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:10] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:37:13,464 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:13] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:37:13,597 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:13] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:37:13,615 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:13] "[33mOPTIONS /api/hackathons HTTP/1.1[0m" 404 -
+2024-10-08 18:37:13,616 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:13] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 18:37:13,616 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:13] "[33mOPTIONS /api/hackathons HTTP/1.1[0m" 404 -
+2024-10-08 18:37:44,245 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:44] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:37:44,246 - INFO - 127.0.0.1 - - [08/Oct/2024 18:37:44] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:38:00,605 - INFO - 127.0.0.1 - - [08/Oct/2024 18:38:00] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:38:00,733 - INFO - 127.0.0.1 - - [08/Oct/2024 18:38:00] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:38:00,743 - INFO - 127.0.0.1 - - [08/Oct/2024 18:38:00] "[33mOPTIONS /api/hackathons HTTP/1.1[0m" 404 -
+2024-10-08 18:38:00,744 - INFO - 127.0.0.1 - - [08/Oct/2024 18:38:00] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 18:38:00,744 - INFO - 127.0.0.1 - - [08/Oct/2024 18:38:00] "[33mOPTIONS /api/hackathons HTTP/1.1[0m" 404 -
+2024-10-08 18:39:11,522 - INFO - 127.0.0.1 - - [08/Oct/2024 18:39:11] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:39:11,651 - INFO - 127.0.0.1 - - [08/Oct/2024 18:39:11] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:39:11,662 - INFO - 127.0.0.1 - - [08/Oct/2024 18:39:11] "[33mOPTIONS /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:39:11,662 - INFO - 127.0.0.1 - - [08/Oct/2024 18:39:11] "[33mOPTIONS /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:39:11,662 - INFO - 127.0.0.1 - - [08/Oct/2024 18:39:11] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 18:43:41,549 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:41] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 18:43:41,680 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:41] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:43:41,689 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:41] "[33mOPTIONS /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:43:41,689 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:41] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 18:43:41,690 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:41] "[33mOPTIONS /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:43:45,350 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:45] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:43:45,353 - INFO - 127.0.0.1 - - [08/Oct/2024 18:43:45] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:44:01,261 - INFO - 127.0.0.1 - - [08/Oct/2024 18:44:01] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:44:01,263 - INFO - 127.0.0.1 - - [08/Oct/2024 18:44:01] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:44:15,080 - INFO - 127.0.0.1 - - [08/Oct/2024 18:44:15] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:44:15,083 - INFO - 127.0.0.1 - - [08/Oct/2024 18:44:15] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:02,183 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:02] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:02,184 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:02] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:05,806 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:05] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:05,810 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:05] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:07,281 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:07] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:07,283 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:07] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:07,978 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:07] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:07,979 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:07] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:16,156 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:16] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:16,159 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:16] "[33mGET /api/hackathons/devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:27,864 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:27] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:46:27,865 - INFO - 127.0.0.1 - - [08/Oct/2024 18:46:27] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:50:45,674 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 18:50:45,674 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 18:50:45,674 - INFO - Scheduler started
+2024-10-08 18:50:45,675 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 18:50:45,675 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:50:45 IST)" (scheduled at 2024-10-08 18:50:45.673876+05:30)
+2024-10-08 18:50:45,675 - INFO - Starting scraping process...
+2024-10-08 18:50:45,677 - INFO - Scraping Devpost...
+2024-10-08 18:50:45,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 18:50:45,687 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 18:50:48,981 - INFO - Scraping Devfolio...
+2024-10-08 18:50:48,981 - INFO - ====== WebDriver manager ======
+2024-10-08 18:50:49,097 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:50:49,247 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:50:49,384 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:50:57,934 - INFO - ====== WebDriver manager ======
+2024-10-08 18:50:58,015 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:50:58,161 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:50:58,311 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:05,942 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:06,017 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:06,162 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:06,394 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:15,946 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:16,019 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:16,177 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:16,395 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:24,404 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:24,496 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:24,629 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:24,822 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:31,681 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:31,756 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:31,908 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:32,170 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:41,174 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:41,249 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:41,410 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:41,628 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:49,815 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:49,891 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:50,037 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:50,185 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:51:58,217 - INFO - ====== WebDriver manager ======
+2024-10-08 18:51:58,291 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:58,440 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:51:58,608 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:52:06,081 - INFO - ====== WebDriver manager ======
+2024-10-08 18:52:06,157 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:06,303 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:06,437 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:52:19,032 - INFO - ====== WebDriver manager ======
+2024-10-08 18:52:19,108 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:19,304 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:19,463 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:52:27,012 - INFO - Scraping Unstop...
+2024-10-08 18:52:27,012 - INFO - ====== WebDriver manager ======
+2024-10-08 18:52:27,095 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:27,290 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:27,472 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:52:46,049 - INFO - Scraping Hack2skill...
+2024-10-08 18:52:46,049 - INFO - ====== WebDriver manager ======
+2024-10-08 18:52:46,136 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:46,271 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 18:52:46,517 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 18:53:04,480 - INFO - Scraping process completed.
+2024-10-08 18:53:04,480 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 18:50:45 IST)" executed successfully
+2024-10-08 18:53:21,992 - INFO - 127.0.0.1 - - [08/Oct/2024 18:53:21] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 18:53:41,222 - INFO - 127.0.0.1 - - [08/Oct/2024 18:53:41] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 18:53:41,224 - INFO - 127.0.0.1 - - [08/Oct/2024 18:53:41] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 19:00:20,293 - INFO - 127.0.0.1 - - [08/Oct/2024 19:00:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-08 19:00:58,620 - INFO - 127.0.0.1 - - [08/Oct/2024 19:00:58] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:04:58,347 - INFO - 127.0.0.1 - - [08/Oct/2024 19:04:58] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 19:05:03,635 - INFO - 127.0.0.1 - - [08/Oct/2024 19:05:03] "[33mGET /api/hackathons/Devpost HTTP/1.1[0m" 404 -
+2024-10-08 19:05:31,310 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 19:05:31,310 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 19:05:31,310 - INFO - Scheduler started
+2024-10-08 19:05:31,310 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 19:05:31,310 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:05:31 IST)" (scheduled at 2024-10-08 19:05:31.309771+05:30)
+2024-10-08 19:05:31,310 - INFO - Starting scraping process...
+2024-10-08 19:05:31,313 - INFO - Scraping Devpost...
+2024-10-08 19:05:31,324 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 19:05:31,324 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 19:05:34,571 - INFO - Scraping Devfolio...
+2024-10-08 19:05:34,573 - INFO - ====== WebDriver manager ======
+2024-10-08 19:05:34,696 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:34,916 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:35,056 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:05:42,607 - INFO - ====== WebDriver manager ======
+2024-10-08 19:05:42,684 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:42,827 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:42,955 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:05:49,771 - INFO - ====== WebDriver manager ======
+2024-10-08 19:05:49,846 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:50,076 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:50,211 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:05:57,583 - INFO - ====== WebDriver manager ======
+2024-10-08 19:05:57,681 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:57,892 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:05:58,025 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:05,176 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:05,257 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:05,387 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:05,542 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:13,104 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:13,181 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:13,309 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:13,438 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:20,813 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:20,892 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:21,059 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:21,188 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:28,808 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:28,882 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:29,052 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:29,185 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:36,220 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:36,293 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:36,422 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:36,642 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:44,449 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:44,523 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:44,672 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:44,832 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:06:54,744 - INFO - ====== WebDriver manager ======
+2024-10-08 19:06:54,817 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:55,025 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:06:55,163 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:07:02,893 - INFO - Scraping Unstop...
+2024-10-08 19:07:02,894 - INFO - ====== WebDriver manager ======
+2024-10-08 19:07:02,968 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:07:03,099 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:07:03,246 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:07:16,214 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:16] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:16,218 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:16] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:21,820 - INFO - Scraping Hack2skill...
+2024-10-08 19:07:21,821 - INFO - ====== WebDriver manager ======
+2024-10-08 19:07:21,917 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:07:22,054 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:07:22,189 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:07:37,670 - INFO - Scraping process completed.
+2024-10-08 19:07:37,670 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:05:31 IST)" executed successfully
+2024-10-08 19:07:40,326 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:40,329 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:40] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:41,721 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:41] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 19:07:42,444 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:42] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 19:07:43,035 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:43] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 19:07:43,543 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:43] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:51,174 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:51] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:07:51,178 - INFO - 127.0.0.1 - - [08/Oct/2024 19:07:51] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:08,921 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:08] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:08:22,370 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:08:22,500 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:08:22,510 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:22,510 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:22,510 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 19:08:22,513 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:22,516 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:22] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:39,399 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:39] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:08:39,403 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:39] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:08:44,523 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:44] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:08:44,526 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:44] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:08:49,921 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:49] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:08:49,925 - INFO - 127.0.0.1 - - [08/Oct/2024 19:08:49] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:08,504 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:09:08,633 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:09:08,643 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:08,643 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 19:09:08,643 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:08,648 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:08,650 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:08] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:14,636 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:14] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:14,637 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:14] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:14,640 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:14] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:09:14,643 - INFO - 127.0.0.1 - - [08/Oct/2024 19:09:14] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:11:34,140 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:11:34,269 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:11:34,278 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:11:34,281 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:11:34,282 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 19:11:34,284 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:34] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:11:49,029 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:49] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:11:49,033 - INFO - 127.0.0.1 - - [08/Oct/2024 19:11:49] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:18:52,529 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 19:18:52,529 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 19:18:52,529 - INFO - Scheduler started
+2024-10-08 19:18:52,529 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 19:18:52,529 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:18:52 IST)" (scheduled at 2024-10-08 19:18:52.528629+05:30)
+2024-10-08 19:18:52,530 - INFO - Starting scraping process...
+2024-10-08 19:18:52,531 - INFO - Scraping Devpost...
+2024-10-08 19:18:52,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 19:18:52,545 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 19:18:55,915 - INFO - Scraping Devfolio...
+2024-10-08 19:18:55,916 - INFO - ====== WebDriver manager ======
+2024-10-08 19:18:56,035 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:18:56,167 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:18:56,302 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:03,615 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:03,696 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:03,869 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:04,001 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:11,815 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:11,891 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:12,039 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:12,251 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:19,430 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:19,505 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:19,638 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:19,786 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:26,887 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:26,959 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:27,092 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:27,231 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:34,514 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:34,590 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:34,799 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:34,939 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:42,334 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:42,410 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:42,622 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:42,778 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:50,051 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:50,128 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:50,263 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:50,452 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:19:57,902 - INFO - ====== WebDriver manager ======
+2024-10-08 19:19:57,976 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:58,110 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:19:58,308 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:20:05,193 - INFO - ====== WebDriver manager ======
+2024-10-08 19:20:05,270 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:05,399 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:05,608 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:20:14,966 - INFO - ====== WebDriver manager ======
+2024-10-08 19:20:15,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:15,177 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:15,308 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:20:22,470 - INFO - Scraping Unstop...
+2024-10-08 19:20:22,470 - INFO - ====== WebDriver manager ======
+2024-10-08 19:20:22,554 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:22,695 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:22,913 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:20:41,412 - INFO - Scraping Hack2skill...
+2024-10-08 19:20:41,412 - INFO - ====== WebDriver manager ======
+2024-10-08 19:20:41,490 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:41,617 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:20:41,829 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:20:59,706 - INFO - Scraping process completed.
+2024-10-08 19:20:59,707 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:18:52 IST)" executed successfully
+2024-10-08 19:21:07,756 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:07] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:21:07,759 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:07] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:21:31,294 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:21:31,427 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:21:31,437 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:21:31,438 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "OPTIONS /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:21:31,438 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 19:21:31,442 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:21:31,445 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:31] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:21:33,116 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:33] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:21:33,119 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:33] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:21:41,650 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:41] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:21:41,656 - INFO - 127.0.0.1 - - [08/Oct/2024 19:21:41] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 422 -
+2024-10-08 19:33:18,114 - INFO - 127.0.0.1 - - [08/Oct/2024 19:33:18] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:33:18,119 - INFO - 127.0.0.1 - - [08/Oct/2024 19:33:18] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:33:22,779 - INFO - 127.0.0.1 - - [08/Oct/2024 19:33:22] "[31m[1mPOST /api/hackathons/2/toggle-featured HTTP/1.1[0m" 401 -
+2024-10-08 19:34:35,450 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:34:35,581 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:34:35,593 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "[33mOPTIONS /api/auth/user HTTP/1.1[0m" 404 -
+2024-10-08 19:34:35,594 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:34:35,594 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:34:35,599 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:34:35,602 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:35] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:34:42,404 - INFO - 127.0.0.1 - - [08/Oct/2024 19:34:42] "[31m[1mPOST /api/hackathons/1/toggle-featured HTTP/1.1[0m" 401 -
+2024-10-08 19:38:45,121 - INFO - 127.0.0.1 - - [08/Oct/2024 19:38:45] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:39:21,116 - INFO - 127.0.0.1 - - [08/Oct/2024 19:39:21] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:39:21,122 - INFO - 127.0.0.1 - - [08/Oct/2024 19:39:21] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:39:45,188 - INFO - 127.0.0.1 - - [08/Oct/2024 19:39:45] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:40:17,104 - INFO - 127.0.0.1 - - [08/Oct/2024 19:40:17] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:44:11,491 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-08 19:44:11,492 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-08 19:44:11,492 - INFO - Scheduler started
+2024-10-08 19:44:11,493 - INFO - Scheduler started. Scraping will run daily.
+2024-10-08 19:44:11,493 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:44:11 IST)" (scheduled at 2024-10-08 19:44:11.491185+05:30)
+2024-10-08 19:44:11,493 - INFO - Starting scraping process...
+2024-10-08 19:44:11,496 - INFO - Scraping Devpost...
+2024-10-08 19:44:11,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-08 19:44:11,506 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-08 19:44:13,641 - INFO - Scraping Devfolio...
+2024-10-08 19:44:13,641 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:13,758 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:13,922 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:14,061 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:21,696 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:21,779 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:22,135 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:22,281 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:29,496 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:29,568 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:29,699 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:29,852 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:36,900 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:36,974 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:37,142 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:37,330 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:45,139 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:45,212 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:45,352 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:45,484 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:52,413 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:52,485 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:52,643 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:44:52,834 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:44:59,825 - INFO - ====== WebDriver manager ======
+2024-10-08 19:44:59,899 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:00,061 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:00,204 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:08,354 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:08,427 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:08,572 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:08,795 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:15,762 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:15,839 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:15,968 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:16,171 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:23,356 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:23,434 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:23,578 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:23,715 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:31,594 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:31,671 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:31,906 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:32,043 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:39,389 - INFO - Scraping Unstop...
+2024-10-08 19:45:39,390 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:39,471 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:39,671 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:39,820 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:45:58,437 - INFO - Scraping Hack2skill...
+2024-10-08 19:45:58,437 - INFO - ====== WebDriver manager ======
+2024-10-08 19:45:58,520 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:58,694 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-08 19:45:58,849 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.89/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-08 19:46:17,005 - INFO - Scraping process completed.
+2024-10-08 19:46:17,005 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-09 19:44:11 IST)" executed successfully
+2024-10-08 19:46:52,371 - INFO - 127.0.0.1 - - [08/Oct/2024 19:46:52] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:46:52,503 - INFO - 127.0.0.1 - - [08/Oct/2024 19:46:52] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:46:52,514 - INFO - 127.0.0.1 - - [08/Oct/2024 19:46:52] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:46:52,516 - INFO - 127.0.0.1 - - [08/Oct/2024 19:46:52] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:47:00,621 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:00] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:47:00,632 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-08 19:47:00,633 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:00] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:47:11,018 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:11] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 19:47:34,885 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:34] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 19:47:35,015 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:35] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 19:47:35,025 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:35] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:47:35,028 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:35] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 19:47:36,185 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:36] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:47:36,195 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-08 19:47:36,196 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:36] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 19:47:38,547 - INFO - 127.0.0.1 - - [08/Oct/2024 19:47:38] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:01:06,218 - INFO - 127.0.0.1 - - [08/Oct/2024 20:01:06] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:01:24,017 - INFO - 127.0.0.1 - - [08/Oct/2024 20:01:24] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:01:56,725 - INFO - 127.0.0.1 - - [08/Oct/2024 20:01:56] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:02:44,719 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:44] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 20:02:44,850 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:44] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 20:02:44,863 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:44] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:02:44,865 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:44] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:02:46,756 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:46] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:02:46,766 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-08 20:02:46,766 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:46] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:02:50,626 - INFO - 127.0.0.1 - - [08/Oct/2024 20:02:50] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:03:18,324 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:18] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 20:03:18,454 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:18] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 20:03:18,464 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:18] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:03:18,467 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:18] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:03:21,805 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:21] "OPTIONS /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:03:21,813 - INFO - Hackathon 'Hack49' featured status toggled to 1 by user 'ansh'.
+2024-10-08 20:03:21,814 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:21] "POST /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:03:24,776 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:24] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:03:41,834 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:41] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 20:03:41,964 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:41] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 20:03:41,974 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:41] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:03:41,977 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:41] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:03:43,344 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:43] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:03:43,354 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-08 20:03:43,355 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:43] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:03:44,893 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:44] "OPTIONS /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:03:44,902 - INFO - Hackathon 'Hack49' featured status toggled to 0 by user 'ansh'.
+2024-10-08 20:03:44,903 - INFO - 127.0.0.1 - - [08/Oct/2024 20:03:44] "POST /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:06:50,821 - INFO - 127.0.0.1 - - [08/Oct/2024 20:06:50] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:07:07,305 - INFO - 127.0.0.1 - - [08/Oct/2024 20:07:07] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:07:12,589 - INFO - 127.0.0.1 - - [08/Oct/2024 20:07:12] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 20:07:13,200 - INFO - 127.0.0.1 - - [08/Oct/2024 20:07:13] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 20:07:13,838 - INFO - 127.0.0.1 - - [08/Oct/2024 20:07:13] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 20:16:59,795 - INFO - 127.0.0.1 - - [08/Oct/2024 20:16:59] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:20:52,506 - INFO - 127.0.0.1 - - [08/Oct/2024 20:20:52] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:21:13,973 - INFO - 127.0.0.1 - - [08/Oct/2024 20:21:13] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:29:35,248 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:35] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 20:29:45,423 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:45] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 20:29:45,554 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:45] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 20:29:45,565 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:45] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:29:45,569 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:45] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 20:29:49,062 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:49] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:29:49,074 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-08 20:29:49,075 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:49] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:29:50,501 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:50] "OPTIONS /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:29:50,510 - INFO - Hackathon 'LA Tech Week Hackathon 2024' featured status toggled to 1 by user 'ansh'.
+2024-10-08 20:29:50,511 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:50] "POST /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-08 20:29:54,555 - INFO - 127.0.0.1 - - [08/Oct/2024 20:29:54] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 23:20:11,054 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:11] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 23:20:11,912 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:11] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 23:20:12,677 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:12] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 23:20:13,360 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:13] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 23:20:18,867 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:18] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 23:20:28,759 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:28] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-08 23:20:28,891 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:28] "POST /api/login HTTP/1.1" 200 -
+2024-10-08 23:20:28,901 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:28] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-08 23:20:28,904 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:28] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-08 23:20:30,719 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:30] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 23:20:30,730 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-08 23:20:30,731 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:30] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-08 23:20:31,936 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:31] "OPTIONS /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-08 23:20:31,946 - INFO - Hackathon 'LA Tech Week Hackathon 2024' featured status toggled to 0 by user 'ansh'.
+2024-10-08 23:20:31,947 - INFO - 127.0.0.1 - - [08/Oct/2024 23:20:31] "POST /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-08 23:22:33,677 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:33] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 23:22:36,798 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:36] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 23:22:42,529 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:42] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 23:22:44,197 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:44] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-08 23:22:46,782 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:46] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-08 23:22:55,836 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:55] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-08 23:22:57,468 - INFO - 127.0.0.1 - - [08/Oct/2024 23:22:57] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-08 23:23:02,063 - INFO - 127.0.0.1 - - [08/Oct/2024 23:23:02] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-09 00:52:38,617 - INFO - 127.0.0.1 - - [09/Oct/2024 00:52:38] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 00:52:51,513 - INFO - 127.0.0.1 - - [09/Oct/2024 00:52:51] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:13:07,022 - INFO - 127.0.0.1 - - [09/Oct/2024 01:13:07] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:17:35,199 - INFO - 127.0.0.1 - - [09/Oct/2024 01:17:35] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:21:52,235 - INFO - 127.0.0.1 - - [09/Oct/2024 01:21:52] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:22:29,411 - INFO - 127.0.0.1 - - [09/Oct/2024 01:22:29] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:22:29,543 - INFO - 127.0.0.1 - - [09/Oct/2024 01:22:29] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:22:29,558 - INFO - 127.0.0.1 - - [09/Oct/2024 01:22:29] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:22:29,561 - INFO - 127.0.0.1 - - [09/Oct/2024 01:22:29] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:23:48,944 - INFO - 127.0.0.1 - - [09/Oct/2024 01:23:48] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:23:52,465 - INFO - 127.0.0.1 - - [09/Oct/2024 01:23:52] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 01:23:53,542 - INFO - 127.0.0.1 - - [09/Oct/2024 01:23:53] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-09 01:23:54,127 - INFO - 127.0.0.1 - - [09/Oct/2024 01:23:54] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-09 01:23:55,023 - INFO - 127.0.0.1 - - [09/Oct/2024 01:23:55] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:24:28,236 - INFO - 127.0.0.1 - - [09/Oct/2024 01:24:28] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:24:45,771 - INFO - 127.0.0.1 - - [09/Oct/2024 01:24:45] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 01:25:42,227 - INFO - 127.0.0.1 - - [09/Oct/2024 01:25:42] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 01:31:52,180 - INFO - 127.0.0.1 - - [09/Oct/2024 01:31:52] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:32:41,417 - INFO - 127.0.0.1 - - [09/Oct/2024 01:32:41] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:32:41,548 - INFO - 127.0.0.1 - - [09/Oct/2024 01:32:41] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:32:41,560 - INFO - 127.0.0.1 - - [09/Oct/2024 01:32:41] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:32:41,563 - INFO - 127.0.0.1 - - [09/Oct/2024 01:32:41] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:33:05,248 - INFO - 127.0.0.1 - - [09/Oct/2024 01:33:05] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:33:05,253 - INFO - 127.0.0.1 - - [09/Oct/2024 01:33:05] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:33:22,461 - INFO - 127.0.0.1 - - [09/Oct/2024 01:33:22] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:33:22,464 - INFO - 127.0.0.1 - - [09/Oct/2024 01:33:22] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:34:03,253 - INFO - 127.0.0.1 - - [09/Oct/2024 01:34:03] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:34:03,260 - INFO - 127.0.0.1 - - [09/Oct/2024 01:34:03] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:34:22,119 - INFO - 127.0.0.1 - - [09/Oct/2024 01:34:22] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:34:22,121 - INFO - 127.0.0.1 - - [09/Oct/2024 01:34:22] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:35:20,249 - INFO - 127.0.0.1 - - [09/Oct/2024 01:35:20] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:35:20,255 - INFO - 127.0.0.1 - - [09/Oct/2024 01:35:20] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:47:43,099 - INFO - 127.0.0.1 - - [09/Oct/2024 01:47:43] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:47:43,231 - INFO - 127.0.0.1 - - [09/Oct/2024 01:47:43] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:48:47,228 - INFO - 127.0.0.1 - - [09/Oct/2024 01:48:47] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:48:47,232 - INFO - 127.0.0.1 - - [09/Oct/2024 01:48:47] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:48:52,785 - INFO - 127.0.0.1 - - [09/Oct/2024 01:48:52] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:48:52,791 - INFO - 127.0.0.1 - - [09/Oct/2024 01:48:52] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:48:53,635 - INFO - 127.0.0.1 - - [09/Oct/2024 01:48:53] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:49:15,279 - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:15] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:49:24,874 - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:24] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:49:25,006 - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:25] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:49:25,015 - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:25] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:49:25,017 - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:25] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:54:14,226 - INFO - 127.0.0.1 - - [09/Oct/2024 01:54:14] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:54:14,231 - INFO - 127.0.0.1 - - [09/Oct/2024 01:54:14] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:55:41,909 - INFO - 127.0.0.1 - - [09/Oct/2024 01:55:41] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:55:52,548 - INFO - 127.0.0.1 - - [09/Oct/2024 01:55:52] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:55:52,678 - INFO - 127.0.0.1 - - [09/Oct/2024 01:55:52] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:55:52,689 - INFO - 127.0.0.1 - - [09/Oct/2024 01:55:52] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:55:52,692 - INFO - 127.0.0.1 - - [09/Oct/2024 01:55:52] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:57:36,231 - INFO - 127.0.0.1 - - [09/Oct/2024 01:57:36] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:57:36,234 - INFO - 127.0.0.1 - - [09/Oct/2024 01:57:36] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:58:16,282 - INFO - 127.0.0.1 - - [09/Oct/2024 01:58:16] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:59:05,306 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:05] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 01:59:05,438 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:05] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 01:59:05,449 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:05] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:59:05,451 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:05] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:59:07,297 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:07] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 01:59:21,297 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:21] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:59:28,996 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:28] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 01:59:30,358 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:30] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 01:59:31,342 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:31] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-09 01:59:31,999 - INFO - 127.0.0.1 - - [09/Oct/2024 01:59:31] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-09 02:01:29,818 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:29] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:01:29,948 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:29] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:01:29,958 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:29] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:01:29,960 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:29] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:01:30,974 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:30] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:01:30,983 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:01:30,984 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:30] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:01:34,406 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:34] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:01:47,248 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:47] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:01:47,378 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:47] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2024-10-09 02:01:52,756 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:52] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:01:52,885 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:52] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:01:52,897 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:52] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:01:52,899 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:52] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:01:53,996 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:53] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:01:54,005 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:01:54,006 - INFO - 127.0.0.1 - - [09/Oct/2024 02:01:54] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:24:56,585 - INFO - 127.0.0.1 - - [09/Oct/2024 02:24:56] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:25:00,206 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:00] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-09 02:25:00,851 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:00] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-09 02:25:01,536 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:01] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:25:02,359 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:02] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:25:03,560 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:03] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-09 02:25:09,497 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:09] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:25:54,548 - INFO - 127.0.0.1 - - [09/Oct/2024 02:25:54] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:26:18,801 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:18] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:26:18,930 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:18] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:26:18,940 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:18] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:26:18,943 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:18] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:26:20,152 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:20] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:26:20,161 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:26:20,162 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:20] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:26:20,977 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:26:20,978 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:20] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:26:29,383 - INFO - 127.0.0.1 - - [09/Oct/2024 02:26:29] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:28:12,985 - INFO - 127.0.0.1 - - [09/Oct/2024 02:28:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:28:18,088 - INFO - 127.0.0.1 - - [09/Oct/2024 02:28:18] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:28:39,064 - INFO - 127.0.0.1 - - [09/Oct/2024 02:28:39] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-09 02:29:22,271 - INFO - 127.0.0.1 - - [09/Oct/2024 02:29:22] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:34:52,243 - INFO - 127.0.0.1 - - [09/Oct/2024 02:34:52] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:36:15,235 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:15] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:36:24,943 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:24] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:36:25,073 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:25] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:36:25,083 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:25] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:36:25,085 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:25] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:36:26,279 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:26] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:26,289 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:36:26,290 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:26] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:29,000 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:29] "OPTIONS /api/hackathons/5/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:29,008 - INFO - Hackathon 'HackOHI/O 12' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:36:29,009 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:29] "POST /api/hackathons/5/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:33,244 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:33] "OPTIONS /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:33,253 - INFO - Hackathon 'Hack49' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:36:33,254 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:33] "POST /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:37,259 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:37] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:36:47,767 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:47] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:36:47,896 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:47] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:36:47,905 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:47] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:36:47,908 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:47] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:36:54,620 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:54] "OPTIONS /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:54,632 - INFO - Hackathon 'Kshitij 2025 x Altair Datathon' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:36:54,633 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:54] "POST /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:36:59,505 - INFO - 127.0.0.1 - - [09/Oct/2024 02:36:59] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:37:01,724 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:01] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:37:14,887 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:14] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:37:14,995 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:14] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:37:15,005 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:15] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:37:15,007 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:15] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:37:18,788 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:18] "OPTIONS /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:18,795 - INFO - Hackathon 'AlgoVerse' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:37:18,796 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:18] "POST /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:20,843 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:20] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:37:22,017 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:22] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:37:23,928 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:23] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-09 02:37:24,819 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:24] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:37:31,945 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:31] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:37:32,074 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:32] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:37:32,083 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:32] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:37:32,086 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:32] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:37:33,762 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:33] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:33,771 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:37:33,772 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:33] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:34,687 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:34] "OPTIONS /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:34,695 - INFO - Hackathon 'Hack49' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:37:34,696 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:34] "POST /api/hackathons/6/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:35,517 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:35] "OPTIONS /api/hackathons/5/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:35,526 - INFO - Hackathon 'HackOHI/O 12' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:37:35,527 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:35] "POST /api/hackathons/5/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:36,402 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:36] "OPTIONS /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:36,411 - INFO - Hackathon 'AlgoVerse' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:37:36,412 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:36] "POST /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:39,177 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:39] "OPTIONS /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:37:39,185 - INFO - Hackathon 'Kshitij 2025 x Altair Datathon' featured status toggled to 0 by user 'ansh'.
+2024-10-09 02:37:39,186 - INFO - 127.0.0.1 - - [09/Oct/2024 02:37:39] "POST /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:12,602 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:12] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:58:22,677 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:22] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:58:22,796 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:22] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:58:22,801 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:22] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:58:22,804 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:22] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:58:24,373 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:24] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:24,383 - INFO - Hackathon 'VolunteerTech' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:58:24,383 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:24] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:25,464 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:25] "OPTIONS /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:25,470 - INFO - Hackathon 'LA Tech Week Hackathon 2024' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:58:25,470 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:25] "POST /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:29,029 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:29] "OPTIONS /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:29,036 - INFO - Hackathon 'Kshitij 2025 x Altair Datathon' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:58:29,037 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:29] "POST /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:34,045 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:34] "OPTIONS /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:34,050 - INFO - Hackathon 'AlgoVerse' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:58:34,051 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:34] "POST /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:38,135 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:38] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:58:41,133 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:41] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 02:58:52,907 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:52] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 02:58:53,028 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:53] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 02:58:53,031 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:53] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:58:53,034 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:53] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 02:58:57,255 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:57] "OPTIONS /api/hackathons/59/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:57,262 - INFO - Hackathon 'Analytica' featured status toggled to 1 by user 'ansh'.
+2024-10-09 02:58:57,263 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:57] "POST /api/hackathons/59/toggle-featured HTTP/1.1" 200 -
+2024-10-09 02:58:59,946 - INFO - 127.0.0.1 - - [09/Oct/2024 02:58:59] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-09 02:59:00,952 - INFO - 127.0.0.1 - - [09/Oct/2024 02:59:00] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-09 03:02:03,962 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:03] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-09 03:02:04,093 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:04] "POST /api/login HTTP/1.1" 200 -
+2024-10-09 03:02:04,107 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:04] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-09 03:02:04,109 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:04] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-09 03:02:05,755 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:05] "OPTIONS /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:05,765 - INFO - Hackathon 'VolunteerTech' featured status toggled to 0 by user 'ansh'.
+2024-10-09 03:02:05,766 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:05] "POST /api/hackathons/1/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:06,861 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:06] "OPTIONS /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:06,870 - INFO - Hackathon 'LA Tech Week Hackathon 2024' featured status toggled to 0 by user 'ansh'.
+2024-10-09 03:02:06,871 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:06] "POST /api/hackathons/2/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:07,692 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:07] "OPTIONS /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:07,699 - INFO - Hackathon 'Kshitij 2025 x Altair Datathon' featured status toggled to 0 by user 'ansh'.
+2024-10-09 03:02:07,700 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:07] "POST /api/hackathons/52/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:08,087 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:08] "OPTIONS /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:08,095 - INFO - Hackathon 'AlgoVerse' featured status toggled to 0 by user 'ansh'.
+2024-10-09 03:02:08,096 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:08] "POST /api/hackathons/56/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:08,570 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:08] "OPTIONS /api/hackathons/59/toggle-featured HTTP/1.1" 200 -
+2024-10-09 03:02:08,578 - INFO - Hackathon 'Analytica' featured status toggled to 0 by user 'ansh'.
+2024-10-09 03:02:08,579 - INFO - 127.0.0.1 - - [09/Oct/2024 03:02:08] "POST /api/hackathons/59/toggle-featured HTTP/1.1" 200 -
+2024-10-10 16:07:09,695 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-10 16:07:09,704 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-10 16:07:09,705 - INFO - Scheduler started
+2024-10-10 16:07:09,705 - INFO - Scheduler started. Scraping will run daily.
+2024-10-10 16:07:09,705 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 16:07:09 IST)" (scheduled at 2024-10-10 16:07:09.694464+05:30)
+2024-10-10 16:07:09,705 - INFO - Starting scraping process...
+2024-10-10 16:07:09,712 - INFO - Scraping Devpost...
+2024-10-10 16:07:09,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-10 16:07:09,727 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 16:07:13,501 - INFO - Scraping Devfolio...
+2024-10-10 16:07:13,501 - INFO - ====== WebDriver manager ======
+2024-10-10 16:07:18,547 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:18,719 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:18,886 - INFO - There is no [mac64] chromedriver "129.0.6668.100" for browser google-chrome "129.0.6668" in cache
+2024-10-10 16:07:18,894 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:19,221 - INFO - WebDriver version 129.0.6668.100 selected
+2024-10-10 16:07:19,222 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.100/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-10 16:07:19,222 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.100/mac-arm64/chromedriver-mac-arm64.zip
+2024-10-10 16:07:19,431 - INFO - Driver downloading response is 200
+2024-10-10 16:07:19,697 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:19,909 - INFO - Driver has been saved in cache [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100]
+2024-10-10 16:07:34,012 - INFO - ====== WebDriver manager ======
+2024-10-10 16:07:34,118 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:34,259 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:34,392 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:07:42,504 - INFO - ====== WebDriver manager ======
+2024-10-10 16:07:42,587 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:42,729 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:42,859 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:07:49,675 - INFO - ====== WebDriver manager ======
+2024-10-10 16:07:49,767 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:49,915 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:50,063 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:07:56,967 - INFO - ====== WebDriver manager ======
+2024-10-10 16:07:57,054 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:57,190 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:07:57,322 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:05,120 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:05,202 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:05,323 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:05,453 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:12,601 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:12,703 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:12,828 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:12,978 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:19,772 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:19,890 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:20,060 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:20,216 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:27,178 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:27,321 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:27,464 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:27,592 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:36,331 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:36,468 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:36,594 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:36,781 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:43,982 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:44,069 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:44,193 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:44,347 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:08:51,114 - INFO - Scraping Unstop...
+2024-10-10 16:08:51,115 - INFO - ====== WebDriver manager ======
+2024-10-10 16:08:51,198 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:51,328 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:08:51,476 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:09:11,030 - INFO - Scraping Hack2skill...
+2024-10-10 16:09:11,030 - INFO - ====== WebDriver manager ======
+2024-10-10 16:09:11,116 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:09:11,299 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:09:11,474 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:09:30,296 - INFO - Scraping process completed.
+2024-10-10 16:09:30,296 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 16:07:09 IST)" executed successfully
+2024-10-10 16:09:39,440 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:39] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 16:09:50,675 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:50] "OPTIONS /api/login HTTP/1.1" 200 -
+2024-10-10 16:09:50,805 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:50] "POST /api/login HTTP/1.1" 200 -
+2024-10-10 16:09:50,821 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:50] "OPTIONS /api/hackathons HTTP/1.1" 200 -
+2024-10-10 16:09:50,825 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:50] "GET /api/hackathons HTTP/1.1" 200 -
+2024-10-10 16:09:54,237 - INFO - 127.0.0.1 - - [10/Oct/2024 16:09:54] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 16:10:07,633 - INFO - 127.0.0.1 - - [10/Oct/2024 16:10:07] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-10 16:10:25,355 - INFO - 127.0.0.1 - - [10/Oct/2024 16:10:25] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-10 16:11:06,007 - INFO - 127.0.0.1 - - [10/Oct/2024 16:11:06] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:19:26,199 - INFO - 127.0.0.1 - - [10/Oct/2024 16:19:26] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:19:46,581 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-10 16:19:46,582 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-10 16:19:46,582 - INFO - Scheduler started
+2024-10-10 16:19:46,583 - INFO - Scheduler started. Scraping will run daily.
+2024-10-10 16:19:46,583 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 16:19:46 IST)" (scheduled at 2024-10-10 16:19:46.581255+05:30)
+2024-10-10 16:19:46,583 - INFO - Starting scraping process...
+2024-10-10 16:19:46,584 - INFO - Scraping Devpost...
+2024-10-10 16:19:46,596 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-10 16:19:46,596 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 16:19:49,809 - INFO - Scraping Devfolio...
+2024-10-10 16:19:49,809 - INFO - ====== WebDriver manager ======
+2024-10-10 16:19:49,934 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:19:50,223 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:19:50,361 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:19:57,837 - INFO - ====== WebDriver manager ======
+2024-10-10 16:19:57,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:19:58,039 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:19:58,165 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:05,466 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:05,538 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:05,661 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:05,791 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:12,671 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:12,783 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:12,913 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:13,055 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:19,869 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:19,941 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:20,068 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:20,193 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:27,200 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:27,271 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:27,395 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:27,540 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:34,259 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:34,349 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:34,476 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:34,621 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:41,584 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:41,661 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:41,790 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:41,931 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:48,749 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:48,824 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:48,964 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:49,091 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:20:56,915 - INFO - ====== WebDriver manager ======
+2024-10-10 16:20:57,013 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:57,140 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:20:57,307 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:21:04,264 - INFO - ====== WebDriver manager ======
+2024-10-10 16:21:04,379 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:04,518 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:04,659 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:21:11,672 - INFO - Scraping Unstop...
+2024-10-10 16:21:11,674 - INFO - ====== WebDriver manager ======
+2024-10-10 16:21:11,762 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:11,903 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:12,034 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:21:31,522 - INFO - Scraping Hack2skill...
+2024-10-10 16:21:31,523 - INFO - ====== WebDriver manager ======
+2024-10-10 16:21:31,600 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:31,738 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 16:21:31,882 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 16:21:47,489 - INFO - Scraping process completed.
+2024-10-10 16:21:47,489 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 16:19:46 IST)" executed successfully
+2024-10-10 16:21:53,705 - INFO - 127.0.0.1 - - [10/Oct/2024 16:21:53] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 16:21:55,860 - INFO - 127.0.0.1 - - [10/Oct/2024 16:21:55] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:22:30,962 - INFO - 127.0.0.1 - - [10/Oct/2024 16:22:30] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:23:16,767 - INFO - 127.0.0.1 - - [10/Oct/2024 16:23:16] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:23:28,716 - INFO - 127.0.0.1 - - [10/Oct/2024 16:23:28] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 16:23:32,949 - INFO - 127.0.0.1 - - [10/Oct/2024 16:23:32] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-10 16:29:51,015 - INFO - 127.0.0.1 - - [10/Oct/2024 16:29:51] "GET /api/hackathons/Hack2skill HTTP/1.1" 200 -
+2024-10-10 16:29:55,048 - INFO - 127.0.0.1 - - [10/Oct/2024 16:29:55] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-10 16:29:58,185 - INFO - 127.0.0.1 - - [10/Oct/2024 16:29:58] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-10 16:30:02,371 - INFO - 127.0.0.1 - - [10/Oct/2024 16:30:02] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 16:30:05,689 - INFO - 127.0.0.1 - - [10/Oct/2024 16:30:05] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-10 16:30:27,422 - INFO - 127.0.0.1 - - [10/Oct/2024 16:30:27] "GET /api/hackathons/Devfolio HTTP/1.1" 200 -
+2024-10-10 16:30:28,023 - INFO - 127.0.0.1 - - [10/Oct/2024 16:30:28] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-10 17:44:26,378 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-10 17:44:26,379 - INFO - Added job "scrape_all_sources" to job store "default"
+2024-10-10 17:44:26,379 - INFO - Scheduler started
+2024-10-10 17:44:26,380 - INFO - Scheduler started. Scraping will run daily.
+2024-10-10 17:44:26,380 - INFO - Running job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 17:44:26 IST)" (scheduled at 2024-10-10 17:44:26.378358+05:30)
+2024-10-10 17:44:26,380 - INFO - Starting scraping process...
+2024-10-10 17:44:26,381 - INFO - Scraping Devpost...
+2024-10-10 17:44:26,393 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5213
+2024-10-10 17:44:26,393 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 17:44:29,869 - INFO - Scraping Devfolio...
+2024-10-10 17:44:29,869 - INFO - ====== WebDriver manager ======
+2024-10-10 17:44:29,990 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:30,147 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:30,278 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:44:37,598 - INFO - ====== WebDriver manager ======
+2024-10-10 17:44:37,684 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:37,815 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:37,964 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:44:45,245 - INFO - ====== WebDriver manager ======
+2024-10-10 17:44:45,320 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:45,452 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:45,585 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:44:52,380 - INFO - ====== WebDriver manager ======
+2024-10-10 17:44:52,480 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:52,606 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:52,746 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:44:59,665 - INFO - ====== WebDriver manager ======
+2024-10-10 17:44:59,737 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:44:59,863 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:00,009 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:06,953 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:07,070 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:07,198 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:07,332 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:14,141 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:14,289 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:14,432 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:14,562 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:21,486 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:21,579 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:21,703 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:21,859 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:28,726 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:28,801 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:28,923 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:29,052 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:36,523 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:36,638 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:36,765 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:36,902 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:43,797 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:43,896 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:44,022 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:44,167 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:45:51,071 - INFO - Scraping Unstop...
+2024-10-10 17:45:51,071 - INFO - ====== WebDriver manager ======
+2024-10-10 17:45:51,199 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:51,329 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:45:51,462 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:46:53,521 - INFO - Scraping Hack2skill...
+2024-10-10 17:46:53,521 - INFO - ====== WebDriver manager ======
+2024-10-10 17:46:53,598 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:46:53,730 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-10 17:46:53,858 - INFO - Driver [/Users/anshsingh200516/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-arm64/chromedriver] found in cache
+2024-10-10 17:47:10,816 - INFO - Scraping process completed.
+2024-10-10 17:47:10,816 - INFO - Job "scrape_all_sources (trigger: interval[1 day, 0:00:00], next run at: 2024-10-11 17:44:26 IST)" executed successfully
+2024-10-10 17:48:02,961 - INFO - 127.0.0.1 - - [10/Oct/2024 17:48:02] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
+2024-10-10 17:48:04,913 - INFO - 127.0.0.1 - - [10/Oct/2024 17:48:04] "GET /api/hackathons/Unstop HTTP/1.1" 200 -
+2024-10-11 03:12:37,864 - INFO - 127.0.0.1 - - [11/Oct/2024 03:12:37] "GET /api/hackathons/Devpost HTTP/1.1" 200 -
