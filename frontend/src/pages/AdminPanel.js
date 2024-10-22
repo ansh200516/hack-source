@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
-import api from '../api/axios'; // Import the Axios instance
+import api from '../api/axios';
 import { AuthContext } from '../contexts/AuthContext';
-import { Button, ButtonPrimary } from '../components/shadcn/Button';
+import { Button } from '../components/shadcn/Button';
 import { UpdateIcon, StarIcon, StarFilledIcon } from '@radix-ui/react-icons';
 import Modal from '../components/Modal';
 import { Card, CardHeader, CardBody, CardFooter } from '../components/shadcn/Card';
@@ -21,8 +21,12 @@ const AdminPanel = () => {
   const fetchHackathons = async () => {
     setLoading(true);
     try {
-      const response = await api.get('/hackathons'); // Using Axios instance
-      setHackathons(response.data);
+      const response = await api.get('/hackathons');
+      const hackathonsWithSource = response.data.map((hackathon) => ({
+        ...hackathon,
+        source: hackathon.source || 'Unknown',
+      }));
+      setHackathons(hackathonsWithSource);
       setLoading(false);
     } catch (error) {
       console.error('Error fetching hackathons:', error);
@@ -32,9 +36,8 @@ const AdminPanel = () => {
 
   const handleFeatureToggle = async (id, currentStatus) => {
     try {
-      const response = await api.post(`/hackathons/${id}/toggle-featured`); // Using Axios instance
+      const response = await api.post(`/hackathons/${id}/toggle-featured`);
       if (response.status === 200) {
-        // Update the local state
         setHackathons((prevHackathons) =>
           prevHackathons.map((hack) =>
             hack.id === id ? { ...hack, featured: response.data.featured } : hack
@@ -43,7 +46,6 @@ const AdminPanel = () => {
       }
     } catch (error) {
       console.error('Error toggling featured status:', error);
-      // Optionally, display an error message to the user
     }
   };
 
@@ -55,6 +57,60 @@ const AdminPanel = () => {
   const closeModal = () => {
     setSelectedHackathon(null);
     setIsModalOpen(false);
+  };
+
+  const renderCardDetails = (hackathon) => {
+    switch (hackathon.source) {
+      case 'Devpost':
+        return (
+          <>
+            <p className="text-gray-300">{hackathon.description || 'No description available.'}</p>
+            <div className="text-sm text-gray-400">
+              <span>Deadline: {hackathon.deadline || 'N/A'}</span>
+              <br />
+              <span>Prize: {hackathon.prize || 'N/A'}</span>
+              <br />
+              <span>Location: {hackathon.location || 'N/A'}</span>
+            </div>
+          </>
+        );
+      case 'Devfolio':
+        return (
+          <>
+            <div className="text-sm text-gray-400">
+              <span>Prize: {hackathon.prize || 'N/A'}</span>
+              <br />
+              <span>Start Date: {hackathon.start_date || 'N/A'}</span>
+              <br />
+              <span>Location: {hackathon.location || 'N/A'}</span>
+            </div>
+          </>
+        );
+      case 'Unstop':
+        return (
+          <>
+            <div className="text-gray-300">Institution: {hackathon.institution || 'N/A'}</div>
+            <div className="text-sm text-gray-400">
+              <span>Prize: {hackathon.prize || 'N/A'}</span>
+              <br />
+              <span>Days Left: {hackathon.days_left || 'N/A'}</span>
+            </div>
+          </>
+        );
+      case 'Hack2skill':
+        return (
+          <>
+            <p className="text-gray-300">{hackathon.description || 'No description available.'}</p>
+            <div className="text-sm text-gray-400">
+              <span>Register Before: {hackathon.deadline || 'N/A'}</span>
+              <br />
+              <span>Mode: {hackathon.location || 'N/A'}</span>
+            </div>
+          </>
+        );
+      default:
+        return <p>No data available for this source.</p>;
+    }
   };
 
   // Filter and sort hackathons
@@ -99,10 +155,10 @@ const AdminPanel = () => {
       </div>
 
       {/* Refresh Button */}
-      <ButtonPrimary onClick={fetchHackathons} className="mb-6 flex items-center">
+      <Button onClick={fetchHackathons} className="mb-6 flex items-center">
         <UpdateIcon className="mr-2" />
         Refresh
-      </ButtonPrimary>
+      </Button>
 
       {/* Hackathons List */}
       {filteredHackathons.length === 0 ? (
@@ -124,25 +180,16 @@ const AdminPanel = () => {
                 </h2>
               </CardHeader>
               <CardBody>
-                {/* Display hackathon details here */}
-                <p className="text-gray-300">
-                  {hackathon.description || 'No description available.'}
-                </p>
-                <div className="text-sm text-gray-400">
-                  <span>Deadline: {hackathon.deadline || 'N/A'}</span>
-                  <br />
-                  <span>Prize: {hackathon.prize || 'N/A'}</span>
-                  <br />
-                  <span>Location: {hackathon.location || 'N/A'}</span>
-                </div>
+                {renderCardDetails(hackathon)}
               </CardBody>
               <CardFooter className="flex justify-between items-center">
-                <ButtonPrimary
-                  onClick={() => openModal(hackathon)}
-                  className="flex items-center"
-                >
-                  View Details
-                </ButtonPrimary>
+              <Button
+                variant="primary"
+                className="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white px-4 py-2 rounded transition-transform transform hover:scale-105"
+                onClick={() => openModal(hackathon)}
+              >
+                View Details
+              </Button>
                 <Button
                   onClick={() => handleFeatureToggle(hackathon.id, hackathon.featured)}
                   className="flex items-center bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white px-2 py-1 rounded transition-transform transform hover:scale-105"
@@ -170,9 +217,7 @@ const AdminPanel = () => {
               {selectedHackathon.description || 'No description available.'}
             </p>
             <a
-              href={
-                selectedHackathon.registration_link || selectedHackathon.link || '#'
-              }
+              href={selectedHackathon.link || selectedHackathon.registration_link || '#'}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white px-4 py-2 rounded hover:scale-105 transition-transform"

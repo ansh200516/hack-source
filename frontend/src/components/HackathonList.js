@@ -18,14 +18,26 @@ const HackathonList = () => {
   const [loading, setLoading] = useState(true);
   const [selectedHackathon, setSelectedHackathon] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [source, setSource] = useState('Devpost'); // Track the current source
   const [searchQuery, setSearchQuery] = useState('');
 
-  const fetchHackathons = async (source) => {
+  const fetchHackathons = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5213/api/hackathons/${source}`);
-      setHackathons(response.data);
+      const sources = ['Devpost', 'Devfolio', 'Unstop', 'Hack2skill'];
+      let allHackathons = [];
+
+      // Fetch hackathons from all sources
+      for (const source of sources) {
+        const response = await axios.get(`http://localhost:5213/api/hackathons/${source}`);
+        // Add the source to each hackathon
+        const hackathonsWithSource = response.data.map((hackathon) => ({
+          ...hackathon,
+          source: source,
+        }));
+        allHackathons = allHackathons.concat(hackathonsWithSource);
+      }
+
+      setHackathons(allHackathons);
       setLoading(false);
     } catch (error) {
       console.error('Error fetching hackathons:', error);
@@ -34,13 +46,8 @@ const HackathonList = () => {
   };
 
   useEffect(() => {
-    fetchHackathons(source);
-  }, [source]);
-
-  const handleSourceChange = (newSource) => {
-    setSource(newSource);
-    setSearchQuery(''); // Reset search query when source changes
-  };
+    fetchHackathons();
+  }, []);
 
   const openModal = (hackathon) => {
     setSelectedHackathon(hackathon);
@@ -77,7 +84,7 @@ const HackathonList = () => {
   };
 
   const renderCardDetails = (hackathon) => {
-    switch (source) {
+    switch (hackathon.source) {
       case 'Devpost':
         return (
           <>
@@ -151,7 +158,7 @@ const HackathonList = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <UpdateIcon className="animate-spin h-10 w-10 text-white" />      
+        <UpdateIcon className="animate-spin h-10 w-10 text-white" />
       </div>
     );
   }
@@ -159,7 +166,7 @@ const HackathonList = () => {
   if (filteredHackathons.length === 0) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <p className="text-xl text-gray-400">No hackathons found for {source}.</p>
+        <p className="text-xl text-gray-400">No hackathons found.</p>
       </div>
     );
   }
@@ -169,21 +176,6 @@ const HackathonList = () => {
       <h1 className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-pink-700 to-purple-700 bg-clip-text text-transparent">
         AI/ML Hackathons
       </h1>
-      {/* Buttons to switch between hackathon sources */}
-      <div className="flex justify-center space-x-4 mb-8">
-        <Button variant="primary" onClick={() => handleSourceChange('Hack2skill')}>
-          Hack2skill
-        </Button>
-        <Button variant="primary" onClick={() => handleSourceChange('Devfolio')}>
-          Devfolio
-        </Button>
-        <Button variant="primary" onClick={() => handleSourceChange('Unstop')}>
-          Unstop
-        </Button>
-        <Button variant="primary" onClick={() => handleSourceChange('Devpost')}>
-          Devpost
-        </Button>
-      </div>
       {/* Search Bar */}
       <div className="mb-4">
         <input
@@ -209,6 +201,7 @@ const HackathonList = () => {
               <h2 className="text-2xl font-semibold text-white">
                 {hackathon.title || hackathon.name}
               </h2>
+              <span className="text-sm text-gray-300">{hackathon.source}</span>
             </CardHeader>
             <CardBody>
               {renderCardDetails(hackathon)}
